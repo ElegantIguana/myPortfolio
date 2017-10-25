@@ -5,11 +5,62 @@ body {
 	background-size: 100%;
 }
 
-.stroke {
-	color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
+
+header {
+	height:50px;
+    background: grey;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+
+}
+
+#selfie {
+	padding: 10px 10px 10px 10px;
+}
+
+
+
+#bio {
+	float: left;
+	background: white;
+	border: 20px;
+	max-width: 900px;
+
+}
+
+#links {
+	height: 300px;
+	width: 300px;
+	float: right;
+	background: white;
+	border: 10px black;
+}
+
+
+/* "Fix" the flow of the page */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+footer {
+	height: 50px
+	width: 900px;
+	background: grey;
+	border: 20px black;
+	
+}
+
+
+
+p {
+	text-align: left;
+}
+
+.icon {
+	height: 32px;
+	width: 32px;
 }
