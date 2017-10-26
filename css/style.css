@@ -1,40 +1,72 @@
 body {
-	margin: 1px 1px 1px 1px;
-	padding: 0.5cm 0.5cm 0.5cm 0.5cm;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e9/Gradient_1024x768.jpg");
 	background-size: 100%;
 }
 
 
 header {
+	position: static;
 	height:50px;
-    background: grey;
-    border:1px solid #CCC;
-    width:960px;
-    margin:0px auto;
+    background: #ffffff;
+    border:1px solid #cccccc;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
 
 }
 
+nav {
+	float: right;
+}
+
+
+#logo {
+	float: left;
+	background: teal;
+	padding: 0px 0px 0px 40px;
+	width: 40%;
+}
+
+
 #selfie {
-	padding: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
+	float: left;
 }
 
 
 
 #bio {
+	margin: 5px 5px 5px 100px;
+	border: 5px;
+	padding: 5px 5px 5px 5px;
 	float: left;
 	background: white;
 	border: 20px;
-	max-width: 900px;
+	max-width: 650px;
+	max-height: 650px; 
 
 }
 
 #links {
-	height: 300px;
-	width: 300px;
+	margin: 5px 100px 5px 5px;
+	height: 160px;
+	width: 260px;
 	float: right;
 	background: white;
 	border: 10px black;
+}
+
+
+h3 {
+	text-align: center;
+}
+
+
+ul li { 
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px; 
+	margin: 5px;
+	align-content: center;
 }
 
 
@@ -43,15 +75,17 @@ header {
 	content: "";
 	display: block;
 	clear: both;
+	max-width: 960px;
 
 }
 
 footer {
-	height: 50px
-	width: 900px;
-	background: grey;
-	border: 20px black;
-	
+	margin: 0px 1.5% 24px 1.5%;
+	width: 100%;
+	background: #ffffff;
+	border: #dddddd;
+	position: static;
+	clear: both;
 }
 
 
@@ -61,6 +95,6 @@ p {
 }
 
 .icon {
-	height: 32px;
-	width: 32px;
+	height: 48px;
+	width: 48px;
 }
