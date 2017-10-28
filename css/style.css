@@ -7,6 +7,7 @@
 body {
 	background-image: url(../img/crossword.png);
 	background-size: 100%;
+	margin: auto;
 }
 
 
@@ -24,7 +25,9 @@ header {
 nav {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	float: right;
+	margin-right: 20px;
 }
+
 
 
 #navLinks {
@@ -37,10 +40,14 @@ nav {
 }
 
 
+
+
+
 #logo {
 	float: left;
 	background: #4aaaa5;
 	margin-left: 50px;
+	margin-right: 50px;
 	padding: 0px 0px 0px 0px;
 	width: 40%;
 }
@@ -50,6 +57,14 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+hr {
+	height: 2px;
+	width: 90%;
+	background-color: grey;
 }
 
 
@@ -60,7 +75,7 @@ nav {
 
 
 #bio {
-	margin: 5px 5px 5px 100px;
+	margin: 5px 5px 50px 100px;
 	border:1px solid #cccccc;
 	padding: 5px 5px 5px 5px;
 	float: left;
@@ -69,6 +84,18 @@ nav {
 	max-height: 650px; 
 
 }
+
+h1 {
+	margin-left: 10px;
+	color: #4aaaa5;
+}
+
+
+#p1 {
+	
+	text-align: left;
+}
+
 
 #links {
 	margin: 5px 100px 5px 5px;
@@ -79,18 +106,6 @@ nav {
 	border:1px solid #cccccc;
 }
 
-
-#link1:hover {
-	background-color: gold;
-}
-
-#link2:focus {
-	background-color: red;
-}
-
-#link3:active {
-	background-color: green;
-}
 
 /* DON'T BREAK THIS!!! */
 .clearfix:after {
@@ -121,6 +136,9 @@ ul li {
 }
 
 
+.navLinks:hover {
+	color: green;
+}
 
 
 .wrapper {
@@ -133,7 +151,7 @@ footer {
 	margin-top:;
 	height: 100px;
 	width: 100%;
-	background: #ffffff;
+	background: #666666;
 	border:1px solid #cccccc;
 	position: sticky;
 	clear: both;
@@ -142,6 +160,7 @@ footer {
 
 #copyright {
 	text-align: center;
+	font-size: 15px;
 }
 
 
@@ -153,3 +172,20 @@ p {
 	height: 48px;
 	width: 48px;
 }
+
+
+/* Start PORTFOLIO Styling */
+
+#portfolio {
+	margin: 5px 5px 50px 100px;
+	border:1px solid #cccccc;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	background: white;
+	max-width: 650px;
+	max-height: 650px; 
+
+}
+
+
+/* Start CONTACT Styling */
