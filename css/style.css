@@ -95,7 +95,7 @@ h1 {
 
 #p1 {
 	
-	text-align: left;
+	text-align: justify;
 }
 
 
@@ -163,9 +163,6 @@ footer {
 	height: 50px;
 }
 
-form {
-	margin: 10px;
-}
 
 #copyright {
 	text-align: center;
@@ -203,3 +200,7 @@ p {
 
 
 /* Start CONTACT Styling */
+
+form {
+	margin: 10px;
+}
